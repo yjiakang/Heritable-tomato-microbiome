@@ -1,2 +1,2 @@
 # Heritable tomato microbiome
- Scripts of heritable tomato rhizosphere microbiome resistant to Ralstonia solanacearum 
+ Scripts of "Heritability of tomato rhizobacteria resistant against Ralstonia solanacearum" 

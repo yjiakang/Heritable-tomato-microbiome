@@ -1,0 +1,148 @@
+	Disease_index	Cultivar	Treatment
+HF12sr11	4	HF12	Sterile soil
+HF12sr12	4	HF12	Sterile soil
+HF12sr13	4	HF12	Sterile soil
+HF12sr14	4	HF12	Sterile soil
+HF12sr15	4	HF12	Sterile soil
+HF12nr11	1	HF12	Natural soil
+HF12nr12	0	HF12	Natural soil
+HF12nr13	0	HF12	Natural soil
+HF12nr14	0	HF12	Natural soil
+HF12nr15	0	HF12	Natural soil
+HF12sr21	4	HF12	Sterile soil
+HF12sr22	4	HF12	Sterile soil
+HF12sr23	4	HF12	Sterile soil
+HF12sr24	4	HF12	Sterile soil
+HF12sr25	1	HF12	Sterile soil
+HF12nr21	0	HF12	Natural soil
+HF12nr22	0	HF12	Natural soil
+HF12nr23	0	HF12	Natural soil
+HF12nr24	0	HF12	Natural soil
+HF12nr25	0	HF12	Natural soil
+HF12sr31	4	HF12	Sterile soil
+HF12sr32	4	HF12	Sterile soil
+HF12sr33	4	HF12	Sterile soil
+HF12sr34	4	HF12	Sterile soil
+HF12sr35	4	HF12	Sterile soil
+HF12nr31	0	HF12	Natural soil
+HF12nr32	0	HF12	Natural soil
+HF12nr33	0	HF12	Natural soil
+HF12nr34	0	HF12	Natural soil
+HF12nr35	0	HF12	Natural soil
+HF12sr41	4	HF12	Sterile soil
+HF12sr42	4	HF12	Sterile soil
+HF12sr43	4	HF12	Sterile soil
+HF12sr44	4	HF12	Sterile soil
+HF12sr45	1	HF12	Sterile soil
+HF12nr41	0	HF12	Natural soil
+HF12nr42	0	HF12	Natural soil
+HF12nr43	0	HF12	Natural soil
+HF12S11	4	HF12	Sterile soil
+HF12S12	4	HF12	Sterile soil
+HF12S13	4	HF12	Sterile soil
+HF12S14	4	HF12	Sterile soil
+HF12S15	4	HF12	Sterile soil
+HF12SNs11	0	HF12	Natural soil extract
+HF12SNs12	0	HF12	Natural soil extract
+HF12SNs13	0	HF12	Natural soil extract
+HF12SNs14	0	HF12	Natural soil extract
+HF12SNs15	0	HF12	Natural soil extract
+HF12S21	4	HF12	Sterile soil
+HF12S22	4	HF12	Sterile soil
+HF12S23	4	HF12	Sterile soil
+HF12S24	4	HF12	Sterile soil
+HF12S25	0	HF12	Sterile soil
+HF12SNs21	0	HF12	Natural soil extract
+HF12SNs22	0	HF12	Natural soil extract
+HF12SNs23	0	HF12	Natural soil extract
+HF12SNs24	0	HF12	Natural soil extract
+HF12SNs25	0	HF12	Natural soil extract
+HF12S31	4	HF12	Sterile soil
+HF12S32	4	HF12	Sterile soil
+HF12S33	4	HF12	Sterile soil
+HF12S34	4	HF12	Sterile soil
+HF12S35	0	HF12	Sterile soil
+HF12SNs31	4	HF12	Natural soil extract
+HF12SNs32	4	HF12	Natural soil extract
+HF12SNs33	4	HF12	Natural soil extract
+HF12SNs34	0	HF12	Natural soil extract
+HF12SNs35	4	HF12	Natural soil extract
+HF12S41	4	HF12	Sterile soil
+HF12S42	4	HF12	Sterile soil
+HF12S43	4	HF12	Sterile soil
+HF12S44	4	HF12	Sterile soil
+HF12S45	4	HF12	Sterile soil
+HF12SNs41	4	HF12	Natural soil extract
+HF12SNs42	4	HF12	Natural soil extract
+HF12SNs43	0	HF12	Natural soil extract
+HF12SNs44	0	HF12	Natural soil extract
+HF12SNs45	1	HF12	Natural soil extract
+HG64sr11	4	HG64	Sterile soil
+HG64sr12	2	HG64	Sterile soil
+HG64sr13	1	HG64	Sterile soil
+HG64sr14	0	HG64	Sterile soil
+HG64sr15	2	HG64	Sterile soil
+HG64nr11	0	HG64	Natural soil
+HG64nr12	0	HG64	Natural soil
+HG64nr13	0	HG64	Natural soil
+HG64nr14	0	HG64	Natural soil
+HG64nr15	0	HG64	Natural soil
+HG64sr21	4	HG64	Sterile soil
+HG64sr22	4	HG64	Sterile soil
+HG64sr23	3	HG64	Sterile soil
+HG64sr24	1	HG64	Sterile soil
+HG64sr25	0	HG64	Sterile soil
+HG64nr21	0	HG64	Natural soil
+HG64nr22	0	HG64	Natural soil
+HG64nr23	0	HG64	Natural soil
+HG64nr24	0	HG64	Natural soil
+HG64nr25	0	HG64	Natural soil
+HG64sr31	4	HG64	Sterile soil
+HG64sr32	4	HG64	Sterile soil
+HG64sr33	2	HG64	Sterile soil
+HG64sr34	0	HG64	Sterile soil
+HG64sr35	0	HG64	Sterile soil
+HG64nr31	0	HG64	Natural soil
+HG64nr32	0	HG64	Natural soil
+HG64nr33	0	HG64	Natural soil
+HG64nr34	0	HG64	Natural soil
+HG64nr35	0	HG64	Natural soil
+HG64S11	4	HG64	Sterile soil
+HG64S12	4	HG64	Sterile soil
+HG64S13	3	HG64	Sterile soil
+HG64S14	0	HG64	Sterile soil
+HG64S15	0	HG64	Sterile soil
+HG64SNs11	0	HG64	Natural soil extract
+HG64SNs12	0	HG64	Natural soil extract
+HG64SNs13	0	HG64	Natural soil extract
+HG64SNs14	0	HG64	Natural soil extract
+HG64SNs15	0	HG64	Natural soil extract
+HG64S21	4	HG64	Sterile soil
+HG64S22	4	HG64	Sterile soil
+HG64S23	4	HG64	Sterile soil
+HG64S24	4	HG64	Sterile soil
+HG64S25	0	HG64	Sterile soil
+HG64SNs21	4	HG64	Natural soil extract
+HG64SNs22	4	HG64	Natural soil extract
+HG64SNs23	1	HG64	Natural soil extract
+HG64SNs24	1	HG64	Natural soil extract
+HG64SNs25	0	HG64	Natural soil extract
+HG64S31	4	HG64	Sterile soil
+HG64S32	2	HG64	Sterile soil
+HG64S33	2	HG64	Sterile soil
+HG64S34	2	HG64	Sterile soil
+HG64S35	0	HG64	Sterile soil
+HG64SNs31	0	HG64	Natural soil extract
+HG64SNs32	0	HG64	Natural soil extract
+HG64SNs33	0	HG64	Natural soil extract
+HG64SNs34	4	HG64	Natural soil extract
+HG64S41	4	HG64	Sterile soil
+HG64S42	4	HG64	Sterile soil
+HG64S43	4	HG64	Sterile soil
+HG64S44	0	HG64	Sterile soil
+HG64S45	0	HG64	Sterile soil
+HG64SNs41	1	HG64	Natural soil extract
+HG64SNs42	4	HG64	Natural soil extract
+HG64SNs43	1	HG64	Natural soil extract
+HG64SNs44	0	HG64	Natural soil extract
+HG64SNs45	0	HG64	Natural soil extract
