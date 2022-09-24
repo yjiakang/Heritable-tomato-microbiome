@@ -22,7 +22,7 @@ ggplot(pca_df, aes(PC1, PC2, color = Treat)) +
     xlab(percentage[1]) + 
     ylab(percentage[2]) +
     scale_color_brewer(palette = "Set2")
-ggsave("all_pca.pdf", height = 4, width = 5)
+ggsave("all_pca.pdf", height = 4, width = 5) # This is Fig. 8B
 
 
 # Fig. 8C
@@ -214,7 +214,7 @@ sly.db <- hub[["AH101267"]]
 kmeansRes <- read.table("degs_cl.txt")
 
 prefix <- 'kmeans6'
-savepath <- "D:/phd/tomato_micr/RNASeq/Cra20_KT/cluster/enrichment/"
+savepath <- "D:/phd/tomato_micr/RNASeq/Cra20_KT/cluster/enrichment/" # please change to your own work path
 
 for (i in kmeansRes$cl %>% unique) {   
     ## KEGG
@@ -230,9 +230,13 @@ for (i in kmeansRes$cl %>% unique) {
               sep = "\t")
 }
 
-kall <- lapply(kmeansRes$cl %>% unique, function(x) {
+kallKEGG_input <- lapply(kmeansRes$cl %>% unique, function(x) {
     
-    eachG <- kmeansRes %>% filter(cl == x) %>% .$id
+    eachG <- kmeansRes %>% filter(cl == x) %>% 
+        .$id %>% 
+        bitr(.,"SYMBOL", "ENTREZID", sly.db) %>% 
+        dplyr::select("ENTREZID") %>% 
+        unlist()
     
     return(eachG)
     

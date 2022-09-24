@@ -15,29 +15,27 @@ index = merge(alpha, design,by="row.names")
 
 shapiro.test(alpha$shannon)
 
-Shapiro-Wilk normality test
+# Shapiro-Wilk normality test
 
 # data:  alpha$shannon
 # W = 0.81788, p-value = 3.879e-07
 
-
-my_theme()
 
 # x axis: Treatment
 p <- ggboxplot(index, x = "Cultivar", y = "shannon",color = "Property", palette = "npg",
                facet.by = "Time", add = "jitter", ncol = 2, width = 0.6) +
     labs(y="Shannon") +
     rremove("xlab") + 
-    stat_compare_means(label.y.npc = 0.2, label.x.npc = 0.2)  # + 
-    # stat_compare_means(comparisons = my_comparison, method = "wilcox")
-    ggpar(p, ylim = c(2,12))
+    stat_compare_means(label.y.npc = 0.2, label.x.npc = 0.2)
+
+ggpar(p, ylim = c(2,12))
 
 
 # Fig. 2B
 # BiocManager::install("yjiakang/microVisu") 
 # run the above line if microVisu not installed
 library(microVisu)
-fileDir <- "D:/phd/tomato_micr/16S/results_no_primer/dada2/R" 
+fileDir <- "D:/phd/tomato_micr/16S/results_no_primer/dada2/R" # please choose your own data dir
 meta <- paste0(fileDir, "/metadata.txt")
 my_theme()
 # weighted unifrac distance

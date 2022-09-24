@@ -169,7 +169,7 @@ pathway_T2C_HF12_dds <- DESeqDataSetFromMatrix(pathway_T2C_HF12, design_T2C_HF12
 keep <- rowSums(counts(pathway_T2C_HF12_dds) >= 10) >= 3
 pathway_T2C_HF12_dds <- pathway_T2C_HF12_dds[keep, ]
 vs_pathway_T2C_HF12_dds <- rlog(pathway_T2C_HF12_dds, blind = TRUE)
-plotPCA(vs_pathway_T2C_HF12_dds, intgroup = "Treatment")
+
 # DEGs analysis
 T2C_HF12_dds <- DESeq(pathway_T2C_HF12_dds)
 resultsNames(T2C_HF12_dds)
