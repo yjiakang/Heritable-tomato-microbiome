@@ -133,7 +133,7 @@ heat_all <- all %>% left_join(cl)
 # export clustering result for further enrichment analysis
 degs_cl <- heat_all %>%
     select(c("id","cl"))
-write.table(degs_cl, "./enrichment/degs_cl.txt", sep = "\t", quote = FALSE)
+# write.table(degs_cl, "./enrichment/degs_cl.txt", sep = "\t", quote = FALSE)
 
 
 scaleC <- heat_all %>% 
