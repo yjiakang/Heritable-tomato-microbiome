@@ -61,7 +61,7 @@ meanGp <- function(v) {
     return(res)
 }
 
-all_for_cluster <- select(all, -contains("vs")) # 只选择原始fpkm数据
+all_for_cluster <- select(all, -contains("vs")) # select fpkm
 rownames(all_for_cluster) <- all_for_cluster$id
 all_for_cluster <- all_for_cluster[-1]
 
