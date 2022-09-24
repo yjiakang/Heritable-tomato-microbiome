@@ -230,6 +230,7 @@ for (i in kmeansRes$cl %>% unique) {
               sep = "\t")
 }
 
+
 kallKEGG_input <- lapply(kmeansRes$cl %>% unique, function(x) {
     
     eachG <- kmeansRes %>% filter(cl == x) %>% 
