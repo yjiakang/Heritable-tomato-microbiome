@@ -27,7 +27,8 @@ p1 <- ggboxplot(sus, x = "Treatment", y = "Disease_index",
     rremove("xlab") +
     rremove("x.text") +
     rremove("x.ticks") +
-    stat_compare_means(comparisons = comparison_1, method = "wilcox", label = "p.signif")
+    stat_compare_means(comparisons = comparison_1, method = "wilcox", 
+                       method.args = list(exact = FALSE), label = "p.signif")
 p1
 
 comparison_2 <- list(c("Sterile soil", "Natural soil"), 
@@ -42,7 +43,8 @@ p2 <- ggboxplot(resis, x = "Treatment", y = "Disease_index",
     rremove("x.text") +
     rremove("x.ticks") +
     rremove("ylab") +
-    stat_compare_means(comparisons = comparison_2, method = "wilcox", label = "p.signif")
+    stat_compare_means(comparisons = comparison_2, method = "wilcox",
+                       method.args = list(exact = FALSE), label = "p.signif")
 p2
 p3 <- p1 + p2
 p3
