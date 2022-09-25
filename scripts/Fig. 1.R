@@ -25,6 +25,8 @@ p1 <- ggboxplot(sus, x = "Treatment", y = "Disease_index",
                facet.by = "Cultivar", ncol = 2, width = 0.8) +
     labs(y="Disease index") +
     rremove("xlab") +
+    rremove("x.text") +
+    rremove("x.ticks") +
     stat_compare_means(comparisons = comparison_1, method = "wilcox", label = "p.signif")
 p1
 
@@ -37,7 +39,11 @@ p2 <- ggboxplot(resis, x = "Treatment", y = "Disease_index",
                 facet.by = "Cultivar", ncol = 2, width = 0.8) +
     labs(y="Disease index") +
     rremove("xlab") +
+    rremove("x.text") +
+    rremove("x.ticks") +
+    rremove("ylab") +
     stat_compare_means(comparisons = comparison_2, method = "wilcox", label = "p.signif")
 p2
 p3 <- p1 + p2
-ggsave("Fig1.pdf", p3, width = 7, height = 5.5)
+p3
+ggsave("Fig1.pdf", p3, width = 9, height = 5.5)
