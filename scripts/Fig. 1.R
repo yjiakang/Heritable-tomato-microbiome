@@ -49,3 +49,4 @@ p2
 p3 <- p1 + p2
 p3
 ggsave("Fig1.pdf", p3, width = 9, height = 5.5)
+# Then use Adobe illustrator to adjust the figure legend

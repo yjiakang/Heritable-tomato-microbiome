@@ -257,3 +257,4 @@ ggsave('kmeans6_KEGGALL.pdf', width = 6, height = 4)
 kallKEGG %>% 
     as.data.frame %>%
     write.table('kmeans6_KEGG.txt', quote = FALSE, sep = "\t")
+# Adobe illustrator was used to adjust the figure legend "p.adjust" to "Padj"

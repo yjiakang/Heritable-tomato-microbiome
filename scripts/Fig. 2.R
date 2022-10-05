@@ -29,7 +29,7 @@ p <- ggboxplot(index, x = "Cultivar", y = "shannon",color = "Property", palette 
     stat_compare_means(label.y.npc = 0.2, label.x.npc = 0.2)
 
 ggpar(p, ylim = c(2,12))
-
+# Then use Adobe illustator to adjust the figure legend and capitalize and italicize "p"
 
 # Fig. 2B
 # BiocManager::install("yjiakang/microVisu") 
