@@ -6,3 +6,4 @@ function() {
                         axis.title = element_text(size = 12, face = "bold"), 
                         plot.margin = unit(rep(1, 4), "cm"),
                         panel.grid = element_blank()))
+    }
